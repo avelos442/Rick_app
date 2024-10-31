@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/BackgroundColor"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MenuActivity">
+
+    <!-- Заголовок меню -->
+    <TextView
+        android:id="@+id/menu_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_centerHorizontal="true"
+        android:text="МЕНЮ"
+        android:textSize="60sp"
+        android:fontFamily="@font/rubikwetpaint"
+        android:textColor="@color/text" />
+
+    <!-- Содержимое меню -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/menu_title"
+        android:orientation="vertical"
+        android:layout_marginTop="32dp"
+        android:gravity="center">
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/all_characters_button"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/rounded_button"
+            android:text="Персонажи         📖"
+            android:textColor="@color/primaryTextColor"
+            android:textSize="20sp"
+            android:fontFamily="@font/rubikwetpaint" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/favourite_button"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/rounded_button"
+            android:text="Избранное        ❤️"
+            android:textColor="@color/primaryTextColor"
+            android:textSize="20sp"
+            android:fontFamily="@font/rubikwetpaint"
+            android:layout_marginTop="16dp" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/is_it_human_button"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/rounded_button"
+            android:text="Это человек?         ❓"
+            android:textColor="@color/primaryTextColor"
+            android:textSize="20sp"
+            android:fontFamily="@font/rubikwetpaint"
+            android:layout_marginTop="16dp" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/my_account_button"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/rounded_button"
+            android:text="Мой профиль         👤"
+            android:textColor="@color/primaryTextColor"
+            android:textSize="20sp"
+            android:fontFamily="@font/rubikwetpaint"
+            android:layout_marginTop="16dp" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/back_button"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/rounded_button"
+            android:text="Назад         ⬅️"
+            android:textColor="@color/primaryTextColor"
+            android:textSize="20sp"
+            android:fontFamily="@font/rubikwetpaint"
+            android:layout_marginTop="16dp" />
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "197974656369",
+    "project_id": "rick-app-f22be",
+    "storage_bucket": "rick-app-f22be.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:197974656369:android:fcf0dc168ec5fb52f122d0",
+        "android_client_info": {
+          "package_name": "com.example.rick_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD4f7eqUqizKvnELpGr4zTf3xGfiPe7HhQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
