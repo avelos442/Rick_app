@@ -1,4 +1,4 @@
-
+Лабораторные 5-7 https://github.com/avelos442/Rick_app_final
 
 ![Rick-app (1) (2)](https://github.com/user-attachments/assets/2389f76a-7916-49eb-8e73-c7be030540d1)
 
